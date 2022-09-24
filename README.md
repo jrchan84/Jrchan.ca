@@ -19,3 +19,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 ### `firebase deploy`
+
+Deploys the build folder to firebase
