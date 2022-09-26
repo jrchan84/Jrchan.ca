@@ -1,0 +1,25 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: var(--container-spacing);
+  z-index: -1;
+}
+
+.skills-title {
+  margin: var(--content-spacing);
+  margin-left: 15vw;
+  margin-right: auto;
+}
+
+.skills .hero-container {
+  backdrop-filter: blur( 150px );
+  -webkit-backdrop-filter: blur( 150px );
+}
+
+.skills .hero-content {
+
+}

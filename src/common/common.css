@@ -1,0 +1,17 @@
+:root {
+  /* color pallets */
+  --primary: #78ffc7;
+  --comp-primary: #49ffd4;
+  --secondary: #d1a0fc;
+  --comp-secondary: #8e79fa;
+  --tertiary: #5ddbff;
+  --comp-tertiary: #35bdff;
+  --background: #02080e;
+  --comp-background: #343f4b;
+  --white: #FFFFFF;
+
+  /* spacing */
+  --text-spacing: 10px 15px 10px 15px;
+  --container-spacing: 20px 0;
+  --content-spacing: 25px 50px;
+}

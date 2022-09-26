@@ -1,0 +1,62 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+#tsparticles {
+  height: 90vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+
+}
+
+.hero-container {
+  height: 65vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background-image: radial-gradient(circle at 100% 100%, transparent 20px, #fff 20px, #fff 21px, transparent 21px),
+                    linear-gradient(to right, #fff, #d1a0fc),
+                    radial-gradient(circle at 0% 100%, transparent 20px, #d1a0fc 20px, #d1a0fc 21px, transparent 21px),
+                    linear-gradient(to bottom, #d1a0fc, transparent),
+                    radial-gradient(circle at 0% 0%, transparent 20px, transparent 20px, transparent 21px, transparent 21px),
+                    linear-gradient(to left, transparent, #5ddbff),
+                    radial-gradient(circle at 100% 0%, transparent 20px, #5ddbff 20px, #5ddbff 21px, transparent 21px),
+                    linear-gradient(to top, #5ddbff, #fff);
+  background-size: 21px 21px, calc(100% - 42px) 1px, 21px 21px, 1px calc(100% - 42px);
+  background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+  background-repeat: no-repeat;
+
+
+  box-shadow: 5px 5px 30px 10px rgba(52, 63, 75, 0.1);
+  backdrop-filter: blur( 85px );
+  -webkit-backdrop-filter: blur( 85px );
+  border-radius: 20px;
+}
+
+.hero-portrait {
+  width: 300px;
+  height: 300px;
+  margin: var(--content-spacing);
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--white);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-portrait {
+    display: none;
+  }
+}
+
+.hero-content {
+  margin: var(--content-spacing);
+}

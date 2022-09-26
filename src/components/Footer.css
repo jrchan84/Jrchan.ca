@@ -1,0 +1,67 @@
+.footer-background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10px;
+
+  background-image: url(../assets/swirl.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+
+  bottom: 0;
+  padding-right: 40px;
+  padding-left: 40px;
+
+  border-top: 1px solid #fff;
+  background: rgba(52, 63, 75, 0.5);
+  backdrop-filter: blur( 30px );
+  -webkit-backdrop-filter: blur( 30px );
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 15px 15px;
+  padding: 0;
+}
+
+.footer-links p {
+  margin: 10px 10px;
+}
+
+.footer-links li {
+  display: flex;
+  float: none;
+}
+
+.footer-links a {
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
+  margin: 10px 10px;
+  transition: color 1s;
+}
+
+.footer-links a:hover {
+  color: var(--tertiary);
+  transition: border 1s;
+}

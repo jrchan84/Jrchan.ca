@@ -1,6 +1,8 @@
+import './Work.css';
+
 function Work() {
   return (
-    <div className="work">
+    <div className="work" id="Work">
       Work
     </div>
   );

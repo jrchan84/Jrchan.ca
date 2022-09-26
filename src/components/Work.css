@@ -1,0 +1,10 @@
+.work {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: var(--container-spacing);
+
+  height: 90vh;
+  border: 1px solid red;
+}

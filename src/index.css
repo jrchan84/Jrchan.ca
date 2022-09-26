@@ -5,6 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--white);
+  background: var(--background);
+  font-size: 16px;
+  background-image: url(assets/swirl.svg);
+  background-position: 10% center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+@media  only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
 }
 
 code {
