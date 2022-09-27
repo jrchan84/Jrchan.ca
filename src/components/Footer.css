@@ -5,7 +5,6 @@
   justify-content: flex-end;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 10px;
 
   background-image: url(../assets/swirl.svg);
   background-position: center center;
@@ -64,4 +63,10 @@
 .footer-links a:hover {
   color: var(--tertiary);
   transition: border 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    justify-content: center;
+  }
 }

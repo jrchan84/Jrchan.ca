@@ -46,17 +46,23 @@
   width: 300px;
   height: 300px;
   margin: var(--content-spacing);
+  margin-right: 20px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid var(--white);
+}
+
+.hero-content {
+  margin: var(--content-spacing);
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
   .hero-portrait {
     display: none;
   }
-}
 
-.hero-content {
-  margin: var(--content-spacing);
+  .hero-content {
+    margin: var(--content-spacing);
+  }
 }

@@ -9,18 +9,30 @@ body {
   background: var(--background);
   font-size: 16px;
   background-image: url(assets/swirl.svg);
-  background-position: 10% center;
+  background-position: 10% 30%;
   background-repeat: no-repeat;
   background-size: 200%;
-}
-
-@media  only screen and (max-width: 768px) {
-  body {
-    font-size: 12px;
-  }
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+    background-position: 50% 23%;
+    background-repeat: no-repeat;
+    background-size: 300%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    background-position: 50% 23%;
+    background-repeat: no-repeat;
+    background-size: 700%;
+  }
 }
