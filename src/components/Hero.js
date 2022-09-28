@@ -3,6 +3,7 @@ import { loadGradientUpdater } from "tsparticles-updater-gradient";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import './Hero.css';
+import ReactRotatingText from 'react-rotating-text';
 
 const Hero = () => {
   var mediaQuery = window.matchMedia("(min-width: 768px)");
@@ -203,7 +204,11 @@ const Hero = () => {
         </div>
         <div className="hero-content">
           <h1>Hi, I'm Justin, but people like to call me Jrc.</h1>
-          <h2>I'm a </h2>
+          <h2>I'm a&nbsp;
+            <span className="carousel">
+              <ReactRotatingText items={['software engineer.', 'product owner.', 'teammate.', 'creator.', 'lifelong learner.']} />
+            </span>
+          </h2>
         </div>
       </div>
     </div>
