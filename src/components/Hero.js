@@ -190,6 +190,16 @@ const Hero = () => {
     await console.log(container);
   }, []);
 
+  var carouselArray = [
+    'software engineer.',
+    'full-stack developer.',
+    'product owner.',
+    'problem solver.',
+    'strong teammate.',
+    'digital creator.',
+    'lifelong learner.'
+  ];
+
   return (
     <div className="hero" id="Hero">
       <Particles
@@ -203,10 +213,10 @@ const Hero = () => {
           <img className="hero-portrait" src="/assets/images/about-profile.png" alt="Profile"/>
         </div>
         <div className="hero-content">
-          <h1>Hi, I'm Justin, but people like to call me Jrc.</h1>
+          <h1>Hi, my name's Justin, but people like to call me "Jrc".</h1>
           <h2>I'm a&nbsp;
             <span className="carousel">
-              <ReactRotatingText items={['software engineer.', 'product owner.', 'teammate.', 'creator.', 'lifelong learner.']} />
+              <ReactRotatingText items={carouselArray} />
             </span>
           </h2>
         </div>

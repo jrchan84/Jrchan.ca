@@ -17,14 +17,13 @@ function About() {
           <div className="fakeScreen">
             <p className="line1">justin.chan@127.0.0.1 ~$: whoami</p>
             <p className="line2">
-               Fourth year computer science student at UBC. Fourth year computer science student at UBC.
-               Fourth year computer science student at UBC. Fourth year computer science student at UBC.
-               Fourth year computer science student at UBC. Fourth year computer science student at UBC.
-               Fourth year computer science student at UBC. Fourth year computer science student at UBC.
-               Fourth year computer science student at UBC. Fourth year computer science student at UBC.
-               Fourth year computer science student at UBC. Fourth year computer science student at UBC.
+               Fourth year computer science student at UBC graduating May 2023.
+               I'm a cross-functional leader driven by impact and results with strong programming and engineering fundamentals.
+               I pride myself in tackling learning through audacious project-oriented goals.
+               Outside of academics and work, I push myself physically by competing in ultimate frisbee and fuel my creative passions through photography and videography.
             </p>
-            <p className="line3">Driven by a passion to create, technology is my medium of creation.</p>
+            <p className="line3">Driven by a desire to create, technology is my medium of creation.</p>
+            <p>Currently seeking new graduate software engineering roles for Summer/Fall 2023.</p>
             <p className="line4">><span className="cursor4">_</span></p>
           </div>
         </div>
