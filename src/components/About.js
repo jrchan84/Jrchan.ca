@@ -5,6 +5,9 @@ function About() {
     <div className="about" id="About">
       <div className="content">
         <h1 className="about-title">About</h1>
+        <div className="about-profile">
+          <img className="about-portrait" src="/assets/images/about-profile.png" alt="About Profile"/>
+        </div>
         <div className="console">
           <div className="fakeMenu">
             <div className="fakeButtons fakeClose"></div>

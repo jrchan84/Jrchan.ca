@@ -7,7 +7,6 @@ function Footer() {
       <div className="footer" id="Footer">
         <ul className="footer-links">
           <li><p>Justinrichardchan@gmail.com</p></li>
-          <li><p>(778) 223 0280</p></li>
           <li><p>Vancouver, BC, Canada</p></li>
           <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a></li>
           <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a></li>

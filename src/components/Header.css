@@ -27,6 +27,11 @@
   margin-left: 20px;
 }
 
+.text {
+  text-decoration: none;
+  color: var(--white);
+}
+
 .links-container {
   margin-right: 20px;
 }
@@ -42,9 +47,7 @@
 }
 
 .links a {
-  display: block;
   color: var(--white);
-  text-align: center;
   text-decoration: none;
   padding: 4px 8px;
   margin: 5px;
@@ -58,4 +61,106 @@
   border-radius: 5px;
   border: 1px solid var(--white);
   transition: border 1s;
+}
+
+.toggle-container {
+  display: none;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  position: absolute;
+  border-bottom: none;
+
+
+  transition-property: border, background;
+  transition-duration: 1s;
+
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 10vh;
+}
+
+.up {
+  height: calc(90vh - 1px);
+  background: rgba(52, 63, 75, 0.5);
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  position: fixed;
+  background: var(--background);
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-top: none;
+  border-bottom: 1px solid var(--white);
+  height: calc(90vh - 1px);
+
+  top: 0;
+  margin-top: calc(10vh + 1px);
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  margin: 10px;
+}
+
+.dropdown-menu a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 4px 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: border 1s;
+}
+
+.dropdown-menu a:hover {
+  box-shadow: 0px 0px 10px 3px rgba(52, 63, 75, 0.1);
+  border-radius: 5px;
+  border: 1px solid var(--white);
+  transition: border 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+  }
+
+  .toggle-container :hover {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.2);
+    transition: box-shadow 0.25s;
+  }
+
+  .links-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
 }

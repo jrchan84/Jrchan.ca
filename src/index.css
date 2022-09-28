@@ -19,16 +19,16 @@ code {
     monospace;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
     background-position: 50% 23%;
     background-repeat: no-repeat;
     background-size: 300%;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     font-size: 12px;
     background-position: 50% 23%;

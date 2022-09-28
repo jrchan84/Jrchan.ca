@@ -190,7 +190,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="hero">
+    <div className="hero" id="Hero">
       <Particles
       id="tsparticles"
       init={particlesInit}
@@ -199,7 +199,7 @@ const Hero = () => {
       />
       <div className="hero-container">
         <div className="hero-portrait-container">
-          <img className="hero-portrait" src="/assets/images/about-profile.png" alt="About Images"/>
+          <img className="hero-portrait" src="/assets/images/about-profile.png" alt="Profile"/>
         </div>
         <div className="hero-content">
           <h1>Hi, I'm Justin, but people like to call me Jrc.</h1>

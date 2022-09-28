@@ -43,13 +43,11 @@
 }
 
 .hero-portrait {
-  width: 300px;
-  height: 300px;
+  width: 20vw;
   margin: var(--content-spacing);
   margin-right: 20px;
-  object-fit: cover;
   border-radius: 50%;
-  border: 5px solid var(--white);
+  border: 3px solid var(--white);
 }
 
 .hero-content {

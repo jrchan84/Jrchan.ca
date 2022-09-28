@@ -41,7 +41,7 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .projects .hero-container {
     height: 40vh;
     width: 40vw;
@@ -61,7 +61,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .projects .hero-container {
     height: 40vh;
     width: 40vw;

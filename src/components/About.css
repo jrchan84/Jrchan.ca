@@ -16,6 +16,20 @@
   justify-content: center;
 }
 
+.about-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-portrait {
+  display: none;
+  width: 30vw;
+  margin: var(--content-spacing);
+  border-radius: 50%;
+  border: 3px solid var(--white);
+}
+
 .about-title {
   margin: var(--content-spacing);
 }
@@ -201,7 +215,15 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .about {
+    padding-top: 150px;
+  }
+
+  .about-portrait {
+    display: initial;
+  }
+
   .fakeScreen {
     width: 500px;
   }
@@ -211,7 +233,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .fakeScreen {
     width: 300px;
   }
