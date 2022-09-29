@@ -6,7 +6,6 @@
   padding-top: 100px;
   padding-bottom: 50px;
   margin: var(--container-spacing);
-  z-index: -1;
 
   background-image: url(../assets/swirl-2.svg);
   background-position: left top;

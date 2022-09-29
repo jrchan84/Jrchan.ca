@@ -56,7 +56,14 @@
 }
 
 .carousel {
-  color: var(--tertiary);
+  color: var(--primary);
+  animation: wheelColor 30s infinite;
+}
+
+@keyframes wheelColor {
+    from, to { color: var(--primary); }
+    50%      { color: var(--secondary); }
+    90%      { color: var(--tertiary); }
 }
 
 .react-rotating-text-cursor {

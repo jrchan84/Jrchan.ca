@@ -216,7 +216,7 @@ const Hero = () => {
           <h1>Hi, my name's Justin, but people like to call me "Jrc".</h1>
           <h2>I'm a&nbsp;
             <span className="carousel">
-              <ReactRotatingText items={carouselArray} />
+              <ReactRotatingText className="carousel-text" items={carouselArray} />
             </span>
           </h2>
         </div>
