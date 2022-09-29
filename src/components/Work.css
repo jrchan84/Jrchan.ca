@@ -20,10 +20,76 @@
   margin-right: -1px;
   backdrop-filter: blur( 150px );
   -webkit-backdrop-filter: blur( 150px );
+  min-height: 500px;
+  height: auto;
 }
 
 .work .hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+  padding: 10px;
+}
 
+.work-divider {
+  height: 50vh;
+  width: 0;
+  border-left: 1px solid var(--white);
+  margin: 20px;
+  align-self: center;
+}
+
+.visier {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.visier-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.visier-logo img {
+  width: 15vw;
+  border-radius: 20%;
+}
+
+.rbc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.rbc-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rbc-logo img {
+  width: 15vw;
+  border-radius: 20%;
+}
+
+.team {
+  font-style: italic;
+  margin: 0;
+}
+
+.work-description {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -37,5 +103,29 @@
   .work .hero-container {
     border-radius: 20px;
     margin-right: 0px;
+  }
+
+  .work .hero-content {
+    flex-direction: column;
+  }
+
+  .work-divider {
+    height: 0px;
+    width: 50vw;
+    border-left: none;
+    border-top: 1px solid var(--white);
+    align-self: center;
+  }
+
+  .visier {
+    flex-direction: column;
+  }
+
+  .rbc {
+    flex-direction: column;
+  }
+
+  .work-description {
+    text-align: center;
   }
 }
