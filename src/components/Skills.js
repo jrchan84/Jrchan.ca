@@ -77,12 +77,12 @@ function Skills() {
                 <p>Industry experience developing features and closing bugs in production within extensive codebase. Worked with NgRx state management and observables frequently, implementing new functionality and ensuring performance. Completed company certification course covering Angular and event-based fundamentals.</p>
               </li>
               <li className="list-item">
-                <h3>React.js, Express.js, Node.js, Jest, Mocha, Chai, Mockito</h3>
+                <h3>React.js, Express.js, Node.js, Jest, Mocha, Chai</h3>
                 <div className="item-divider"></div>
                 <p>Strong experience gained across multiple projects and coursework, as well as hosting community workshops for developing web applications.</p>
               </li>
               <li className="list-item">
-                <h3>Spring Framework, Spring Boot, log4j, JUnit</h3>
+                <h3>Spring Framework, Spring Boot, log4j, JUnit, Mockito</h3>
                 <div className="item-divider"></div>
                 <p>Intermediate experience from internship work developing Java microservices in enterprise OpenShift environments.</p>
               </li>

@@ -73,6 +73,7 @@
   border-radius: 20%;
   border: 3px solid var(--white);
   align-self: center;
+  background-color: var(--comp-background);
 }
 
 .project-tags {
@@ -102,6 +103,13 @@
   padding-top: 5px;
   margin: 10px 10px;
   transition: color 1s;
+}
+
+.no-link {
+  color: var(--white);
+  text-align: center;
+  padding-top: 5px;
+  margin: 10px 10px;
 }
 
 .project-links a:hover {

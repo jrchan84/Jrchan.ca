@@ -1,4 +1,4 @@
-import { FaLink, FaPlayCircle, FaInstagram, FaLinkedinIn, FaGithub} from "react-icons/fa";
+import { FaLink, FaPlayCircle, FaLinkedinIn, FaGithub, FaRegEyeSlash} from "react-icons/fa";
 import './Projects.css';
 
 function Projects() {
@@ -28,136 +28,114 @@ function Projects() {
         <div className="hero-container">
           <div className="hero-content">
             <div className="title-tag">
-              <h3 className="project-type">Hackathon</h3>
+              <h3 className="project-type">Discord Bot</h3>
               <div className="title-tag-divider"></div>
-              <h3>MeetMe</h3>
+              <h3>TTNR</h3>
             </div>
-            <img className="project-img" src="/assets/images/visier-logo.png" alt="visier logo"/>
-            <p className="project-tags">Slack API, Flask, MariaDB</p>
-            <p className="project-description">Python slack bot for casual networking. Finalist in RBC innovation challenge, chosen to be advanced to internal production.</p>
+            <img className="project-img" src="/assets/images/ttnr-logo.png" alt="visier logo"/>
+            <p className="project-tags">Discord API, Node.js, Docker, GCP</p>
+            <p className="project-description">Custom discord bot for gamified community engagement. Deployed on containerized GCE VM through custom CI/CD pipeline using Container Registry, Secret Manager, Firestore, etc.</p>
             <div className="project-links">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jrchan.ca/"><FaInstagram /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/TTNR"><FaGithub /></a>
             </div>
           </div>
         </div>
         <div className="hero-container">
           <div className="hero-content">
             <div className="title-tag">
-              <h3 className="project-type">Tag</h3>
+              <h3 className="project-type">Query Engine REST API</h3>
               <div className="title-tag-divider"></div>
-              <h3>Title</h3>
+              <h3>UBCBR</h3>
             </div>
-            <img className="project-img" src="/assets/images/visier-logo.png" alt="visier logo"/>
-            <p className="project-tags">tags</p>
-            <p className="project-description">Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills, design thinking skills and leadership skills.</p>
+            <img className="project-img" src="/assets/images/ubcbr-logo.png" alt="visier logo"/>
+            <p className="project-tags">Node.js, Express, EBNF, Full-stack </p>
+            <p className="project-description">Full stack REST API web server and neumorphic frontend that provides query insights to certain UBC metadata. Implemented with test driven development and custom ENBF syntax.</p>
             <div className="project-links">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jrchan.ca/"><FaInstagram /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/UBCBR"><FaGithub /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/TPhAG1oIKWQ"><FaPlayCircle /></a>
             </div>
           </div>
         </div>
         <div className="hero-container">
           <div className="hero-content">
             <div className="title-tag">
-              <h3 className="project-type">Tag</h3>
-              <div className="title-tag-divider"></div>
-              <h3>Title</h3>
+              <h3>RBC Innovation Challenge <span className="project-type">2020</span></h3>
             </div>
-            <img className="project-img" src="/assets/images/visier-logo.png" alt="visier logo"/>
-            <p className="project-tags">tags</p>
-            <p className="project-description">Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills, design thinking skills and leadership skills.</p>
+            <img className="project-img" src="/assets/images/meetme-logo.png" alt="visier logo"/>
+            <p className="project-tags">Slack API, Flask, MariaDB, SQLAlchemy</p>
+            <p className="project-description">Casual networking Python slack bot. Finalist in internal hackathon and advanced to internal production. Deployed flask app to OpenShift with containerized MariaDB. </p>
             <div className="project-links">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jrchan.ca/"><FaInstagram /></a>
+              <div className="no-link"><FaRegEyeSlash /></div>
             </div>
           </div>
         </div>
         <div className="hero-container">
           <div className="hero-content">
             <div className="title-tag">
-              <h3 className="project-type">Tag</h3>
-              <div className="title-tag-divider"></div>
-              <h3>Title</h3>
+              <h3>BizHacks <span className="project-type">2020</span></h3>
             </div>
-            <img className="project-img" src="/assets/images/visier-logo.png" alt="visier logo"/>
-            <p className="project-tags">tags</p>
-            <p className="project-description">Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills, design thinking skills and leadership skills.</p>
+            <img className="project-img" src="/assets/images/bizhacks-logo.png" alt="visier logo"/>
+            <p className="project-tags">Java, Azure, Facial Recognition</p>
+            <p className="project-description">Hackathon project centered on BestBuy case study. Personalized customer interface utilizing Azure facial reconition and BestBuy API integrations for shopping recommendations.</p>
             <div className="project-links">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jrchan.ca/"><FaInstagram /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/Face-Forward"><FaGithub /></a>
             </div>
           </div>
         </div>
         <div className="hero-container">
           <div className="hero-content">
             <div className="title-tag">
-              <h3 className="project-type">Tag</h3>
-              <div className="title-tag-divider"></div>
-              <h3>Title</h3>
+              <h3>Local Hack Day <span className="project-type">2019</span></h3>
             </div>
-            <img className="project-img" src="/assets/images/visier-logo.png" alt="visier logo"/>
-            <p className="project-tags">tags</p>
-            <p className="project-description">Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills, design thinking skills and leadership skills.</p>
+            <img className="project-img" src="/assets/images/diner-dates-logo.png" alt="visier logo"/>
+            <p className="project-tags">JavaFX, Google Places API</p>
+            <p className="project-description">Introductory hackathon project. Social eating platform with localized dining recommendations and matchmaking implemented as a JavaFX desktop application.</p>
             <div className="project-links">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jrchan.ca/"><FaInstagram /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/Diner-Dates"><FaGithub /></a>
             </div>
           </div>
         </div>
         <div className="hero-container">
           <div className="hero-content">
             <div className="title-tag">
-              <h3 className="project-type">Tag</h3>
+              <h3 className="project-type">CRUD</h3>
               <div className="title-tag-divider"></div>
-              <h3>Title</h3>
+              <h3>Playlist Database</h3>
             </div>
-            <img className="project-img" src="/assets/images/visier-logo.png" alt="visier logo"/>
-            <p className="project-tags">tags</p>
-            <p className="project-description">Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills, design thinking skills and leadership skills.</p>
+            <img className="project-img" src="/assets/images/crud-logo.png" alt="visier logo"/>
+            <p className="project-tags">PHP, MySQL, Apache, Xampp</p>
+            <p className="project-description">Relational database CRUD app for radio station content management. Implemented PHP interface to establish database connection and execute SQL operations.</p>
             <div className="project-links">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jrchan.ca/"><FaInstagram /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/Playlist-Planet"><FaGithub /></a>
             </div>
           </div>
         </div>
         <div className="hero-container">
           <div className="hero-content">
             <div className="title-tag">
-              <h3 className="project-type">Tag</h3>
+              <h3 className="project-type">JavaFX</h3>
               <div className="title-tag-divider"></div>
-              <h3>Title</h3>
+              <h3>Booking Manager</h3>
             </div>
-            <img className="project-img" src="/assets/images/visier-logo.png" alt="visier logo"/>
-            <p className="project-tags">tags</p>
-            <p className="project-description">Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills, design thinking skills and leadership skills.</p>
+            <img className="project-img" src="/assets/images/photo-logo.png" alt="visier logo"/>
+            <p className="project-tags">JavaFX, OOP, Design Patterns</p>
+            <p className="project-description">Introductory software construction course project. Appointment management application involving JUnit unit tests and Java design patterns like Observer.</p>
             <div className="project-links">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jrchan.ca/"><FaInstagram /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/PhotoBookings"><FaGithub /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/mzsZFDvDres"><FaPlayCircle /></a>
             </div>
           </div>
         </div>
         <div className="hero-container">
           <div className="hero-content">
             <div className="title-tag">
-              <h3 className="project-type">Tag</h3>
-              <div className="title-tag-divider"></div>
-              <h3>Title</h3>
+              <h3>Other</h3>
             </div>
-            <img className="project-img" src="/assets/images/visier-logo.png" alt="visier logo"/>
-            <p className="project-tags">tags</p>
-            <p className="project-description">Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills, design thinking skills and leadership skills.</p>
+            <img className="project-img" src="/assets/images/meme-logo.jpg" alt="visier logo"/>
+            <p className="project-tags">coursework, future</p>
+            <p className="project-description">Computer networking course projects. Machine learning course assignments. Data structure course implementations. Streamlined android launcher for dementia patients. Etc. </p>
             <div className="project-links">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/justinchan84/"><FaLinkedinIn /></a>
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84"><FaGithub /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jrchan.ca/"><FaInstagram /></a>
             </div>
           </div>
         </div>
