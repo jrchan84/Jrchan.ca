@@ -9,7 +9,7 @@ body {
   background: var(--background);
   font-size: 16px;
   background-image: url(assets/swirl.svg);
-  background-position: 10% 30%;
+  background-position: 10% 28%;
   background-repeat: no-repeat;
   background-size: 200%;
 }
