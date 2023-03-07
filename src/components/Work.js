@@ -8,14 +8,14 @@ function Work() {
         <div className="hero-content">
           <div className="visier">
             <div className="visier-logo">
-              <h3>Visier Inc.</h3>
+              <h3>Visier, Inc.</h3>
               <img src="/assets/images/visier-logo.png" alt="visier logo"/>
               <p>Software Developer Co-op</p>
-              <p className="team">Analysis & Visualization</p>
-              <p className="team">May 2022 - Present</p>
+              <p className="team">Workflow Team</p>
+              <p className="team">May 2022 - Dec 2022</p>
             </div>
             <div className="work-description">
-              <p>Engineered product features improving user experience and product value for 15,000+ customers, working alongside lead engineers to rapidly ship new functionality and close weekly production patch bugs.</p>
+              <p>Engineered product features improving user experience and adding value for 15,000+ customers, working alongside lead engineers to rapidly ship new functionality and close weekly production patch bugs.</p>
             </div>
           </div>
           <div className="work-divider"></div>

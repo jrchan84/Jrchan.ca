@@ -24,7 +24,7 @@ function About() {
             </p>
             <p className="line3">Driven by a desire to create, technology is my medium of creation.</p>
             <p>Currently seeking new graduate software engineering roles for Summer/Fall 2023.</p>
-            <p className="line4">><span className="cursor4">_</span></p>
+            <p className="line4"><span className="cursor4">_</span></p>
           </div>
         </div>
       </div>
