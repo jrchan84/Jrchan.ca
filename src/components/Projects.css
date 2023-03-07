@@ -4,13 +4,9 @@
   align-items: center;
   justify-content: center;
   padding-top: 100px;
-  padding-bottom: 50px;
   margin: var(--container-spacing);
-
+  margin-bottom: 0;
   background-image: url(../assets/swirl-2.svg);
-  background-position: left 200%;
-  background-repeat: no-repeat;
-  background-size: 160%;
 }
 
 .projects-title {
@@ -23,6 +19,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .projects .hero-container {
