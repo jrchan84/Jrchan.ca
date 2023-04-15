@@ -41,42 +41,22 @@
   align-self: center;
 }
 
-.visier {
+.company {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5px;
 }
 
-.visier-logo {
+.company-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.visier-logo img {
-  width: 15vw;
-  border-radius: 20%;
-}
-
-.rbc {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-}
-
-.rbc-logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.rbc-logo img {
+.company-logo img {
   width: 15vw;
   border-radius: 20%;
 }
@@ -87,7 +67,7 @@
 }
 
 .work-description {
-  text-align: left;
+  text-align: center;
   margin: 10px;
   padding: 10px;
 }
@@ -115,17 +95,5 @@
     border-left: none;
     border-top: 1px solid var(--white);
     align-self: center;
-  }
-
-  .visier {
-    flex-direction: column;
-  }
-
-  .rbc {
-    flex-direction: column;
-  }
-
-  .work-description {
-    text-align: center;
   }
 }
