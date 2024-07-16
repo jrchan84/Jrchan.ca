@@ -17,13 +17,12 @@ function About() {
           <div className="fakeScreen">
             <p className="line1">justin.chan@127.0.0.1 ~$: whoami</p>
             <p className="line2">
-               Recent 2023 UBC Computer Science Graduate.
-               I'm a cross-functional leader driven by impact and results with strong programming and engineering fundamentals.
-               I pride myself in tackling learning through audacious project-oriented goals.
-               Outside of academics and work, I push myself physically by competing in ultimate frisbee and fuel my creative passions through photography and videography.
+               I'm a cross-functional leader driven by impact and results with strong programming and ML fundamentals.
+               I pride myself in tackling learning by diving into audaciously hard problems, where success means changing how the world works.
+               Outside of work, I'm trying out golf and muay thai, as staying creative with videography.
             </p>
             <p className="line3">Driven by a desire to create, technology is my medium of creation.</p>
-            <p>Currently starting my career as the first full-time hire at OnDeck Fisheries AI.</p>
+            <p>I graduated from UBC Computer Science in 2023, and now I'm automating human video review with AI as the first full-time engineering hire at OnDeck Fisheries AI.</p>
             <p className="line4"><span className="cursor4">_</span></p>
           </div>
         </div>

@@ -11,11 +11,11 @@ function Work() {
               <h3>OnDeck Fisheries AI</h3>
               <img src="/assets/images/ondeck-logo.png" alt="ondeck logo"/>
               <p>Software Engineer</p>
-              <p className="team">Workflow Team</p>
+              <p className="team">Founding Team</p>
               <p className="team">April 2023 - Present</p>
             </div>
             <div className="work-description">
-              <p>First full-time hire spearheading the development of core cloud and MLOps infrastructure and consumer facing API. Building reusable staging and testing CI/CD pipelines and leading the engineering team's efforts. </p>
+              <p>First full-time engineer spearheading core cloud products, MLOps infrastructure, and pilot edge projects. Expanding ML skills, especially in inference optimization, vision models, VLMs, and RAG. </p>
             </div>
           </div>
           <div className="work-divider"></div>

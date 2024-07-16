@@ -195,8 +195,8 @@ const Hero = () => {
     'full-stack developer.',
     'product owner.',
     'problem solver.',
-    'strong teammate.',
-    'digital creator.',
+    'motivated teammate.',
+    'obsessed golfer.',
     'lifelong learner.'
   ];
 

@@ -17,8 +17,7 @@ function Projects() {
             <p className="project-tags">React, Express, Leadership Election Protocol</p>
             <p className="project-description">Decentralized messaging service with custom fault-tolerant leadership selection to allow user-hosted chat servers. Distributed Systems team project.</p>
             <div className="project-links">
-            <a target="_blank" rel="noopener noreferrer" href="https://evoly-map-webapp.herokuapp.com/"><FaLink /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/Evoly-Map-WebApp"><FaGithub /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/DeMeS"><FaGithub /></a>
             </div>
           </div>
         </div>
@@ -33,7 +32,6 @@ function Projects() {
             <p className="project-tags">React, Express, DynamoDB, Redis</p>
             <p className="project-description">Full-stack geographical map data visualization project utilizing MapBox API. Performant MVC Express server with Redis cache layer and optimized UI coordinate clustering.</p>
             <div className="project-links">
-            <a target="_blank" rel="noopener noreferrer" href="https://evoly-map-webapp.herokuapp.com/"><FaLink /></a>
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/jrchan84/Evoly-Map-WebApp"><FaGithub /></a>
             </div>
           </div>
